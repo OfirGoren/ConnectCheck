@@ -9,7 +9,7 @@ InternetDisconnectionsApp provides information about the Amount of internet disc
 ## Highlight features:
 
 
-* Shows in a graph and in a list the amount of disconnections by hours.
+* Presents graphically and in a list the amount of disconnections by hours.
 
 ## Gifs:
 
@@ -17,8 +17,8 @@ InternetDisconnectionsApp provides information about the Amount of internet disc
 
 
 Main technologies: 
-* Background Tasks
-* SQLite
+* Background Tasks.
+* SQLite.
 
 
 ### License - Ⓒ free to use, all right belong to Ofir Goren.
