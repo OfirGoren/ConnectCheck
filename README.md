@@ -2,7 +2,7 @@
 
 ## Description:
 
-InternetDisconnectionsApp provide information when and how many internet disconnections were on the phone
+InternetDisconnectionsApp provides information about the Amount of internet disconnection by hours.
 
 
 
