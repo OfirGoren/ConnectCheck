@@ -1,0 +1,6 @@
+framework module Pods_InternetDisconnectionsApp {
+  umbrella header "Pods-InternetDisconnectionsApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

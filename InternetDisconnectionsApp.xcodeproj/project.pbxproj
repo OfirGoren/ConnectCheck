@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2435244957D55FD21023B14C /* Pods_InternetDisconnectionsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BF517C3CF8A1C07B0B19FD /* Pods_InternetDisconnectionsApp.framework */; };
+		66338AF729194670008115B6 /* NWPathMonitorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66338AF629194670008115B6 /* NWPathMonitorHandler.swift */; };
+		66338AF929195E28008115B6 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66338AF829195E28008115B6 /* Int.swift */; };
+		66338AFB291A62DC008115B6 /* InternetDisDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66338AFA291A62DC008115B6 /* InternetDisDataHandler.swift */; };
+		66338AFE291A69B1008115B6 /* BarChartDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66338AFD291A69B1008115B6 /* BarChartDataHandler.swift */; };
+		66338B03291A6E31008115B6 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66338B02291A6E31008115B6 /* UIColor.swift */; };
+		6661E6EF29141D880030E78B /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6661E6EE29141D880030E78B /* BarChart.swift */; };
+		6661E6F2291434790030E78B /* CustomAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6661E6F1291434790030E78B /* CustomAxisValueFormatter.swift */; };
+		6661E6F5291546F90030E78B /* SQLiteDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6661E6F4291546F90030E78B /* SQLiteDataBase.swift */; };
+		6661E6F72917B4170030E78B /* SQLiteHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6661E6F62917B4170030E78B /* SQLiteHandler.swift */; };
+		6661E6FA2917CBCF0030E78B /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6661E6F92917CBCF0030E78B /* Date.swift */; };
+		6661E6FC2918245F0030E78B /* LocalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6661E6FB2918245F0030E78B /* LocalState.swift */; };
+		66D1C6132913F133002AEE91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D1C6122913F133002AEE91 /* AppDelegate.swift */; };
+		66D1C6152913F133002AEE91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D1C6142913F133002AEE91 /* SceneDelegate.swift */; };
+		66D1C6172913F133002AEE91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D1C6162913F133002AEE91 /* ViewController.swift */; };
+		66D1C61A2913F133002AEE91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66D1C6182913F133002AEE91 /* Main.storyboard */; };
+		66D1C61C2913F135002AEE91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66D1C61B2913F135002AEE91 /* Assets.xcassets */; };
+		66D1C61F2913F135002AEE91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66D1C61D2913F135002AEE91 /* LaunchScreen.storyboard */; };
+		66D1C62A2913F43C002AEE91 /* DisconnectionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D1C6282913F43C002AEE91 /* DisconnectionsCell.swift */; };
+		66D1C62B2913F43C002AEE91 /* DisconnectionsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66D1C6292913F43C002AEE91 /* DisconnectionsCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C2107E963C0FAAF88E073A2 /* Pods-InternetDisconnectionsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InternetDisconnectionsApp.release.xcconfig"; path = "Target Support Files/Pods-InternetDisconnectionsApp/Pods-InternetDisconnectionsApp.release.xcconfig"; sourceTree = "<group>"; };
+		641BBDA8E179B576AF4D9F57 /* Pods-InternetDisconnectionsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InternetDisconnectionsApp.debug.xcconfig"; path = "Target Support Files/Pods-InternetDisconnectionsApp/Pods-InternetDisconnectionsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		66338AF629194670008115B6 /* NWPathMonitorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWPathMonitorHandler.swift; sourceTree = "<group>"; };
+		66338AF829195E28008115B6 /* Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int.swift; sourceTree = "<group>"; };
+		66338AFA291A62DC008115B6 /* InternetDisDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDisDataHandler.swift; sourceTree = "<group>"; };
+		66338AFD291A69B1008115B6 /* BarChartDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartDataHandler.swift; sourceTree = "<group>"; };
+		66338B02291A6E31008115B6 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		6661E6EE29141D880030E78B /* BarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
+		6661E6F1291434790030E78B /* CustomAxisValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAxisValueFormatter.swift; sourceTree = "<group>"; };
+		6661E6F4291546F90030E78B /* SQLiteDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDataBase.swift; sourceTree = "<group>"; };
+		6661E6F62917B4170030E78B /* SQLiteHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteHandler.swift; sourceTree = "<group>"; };
+		6661E6F92917CBCF0030E78B /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		6661E6FB2918245F0030E78B /* LocalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalState.swift; sourceTree = "<group>"; };
+		66D1C60F2913F133002AEE91 /* InternetDisconnectionsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InternetDisconnectionsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66D1C6122913F133002AEE91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66D1C6142913F133002AEE91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		66D1C6162913F133002AEE91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66D1C6192913F133002AEE91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66D1C61B2913F135002AEE91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66D1C61E2913F135002AEE91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66D1C6202913F135002AEE91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66D1C6282913F43C002AEE91 /* DisconnectionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisconnectionsCell.swift; sourceTree = "<group>"; };
+		66D1C6292913F43C002AEE91 /* DisconnectionsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DisconnectionsCell.xib; sourceTree = "<group>"; };
+		85BF517C3CF8A1C07B0B19FD /* Pods_InternetDisconnectionsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InternetDisconnectionsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66D1C60C2913F133002AEE91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2435244957D55FD21023B14C /* Pods_InternetDisconnectionsApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3440B30282F9A2263D70B45D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85BF517C3CF8A1C07B0B19FD /* Pods_InternetDisconnectionsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66338AFF291A6B6D008115B6 /* MonitorInternet */ = {
+			isa = PBXGroup;
+			children = (
+				66338AF629194670008115B6 /* NWPathMonitorHandler.swift */,
+			);
+			path = MonitorInternet;
+			sourceTree = "<group>";
+		};
+		66338B00291A6BDE008115B6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				66D1C6162913F133002AEE91 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		66338B01291A6BEC008115B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				66D1C6272913F3E2002AEE91 /* Cells */,
+				6661E6EE29141D880030E78B /* BarChart.swift */,
+				66D1C6182913F133002AEE91 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		66338B04291A74FE008115B6 /* DataTableView */ = {
+			isa = PBXGroup;
+			children = (
+				66338AFA291A62DC008115B6 /* InternetDisDataHandler.swift */,
+			);
+			path = DataTableView;
+			sourceTree = "<group>";
+		};
+		6661E6ED29141D410030E78B /* DataChart */ = {
+			isa = PBXGroup;
+			children = (
+				66338AFD291A69B1008115B6 /* BarChartDataHandler.swift */,
+			);
+			path = DataChart;
+			sourceTree = "<group>";
+		};
+		6661E6F02914346D0030E78B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6661E6F1291434790030E78B /* CustomAxisValueFormatter.swift */,
+				6661E6FB2918245F0030E78B /* LocalState.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6661E6F3291546800030E78B /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				6661E6F4291546F90030E78B /* SQLiteDataBase.swift */,
+				6661E6F62917B4170030E78B /* SQLiteHandler.swift */,
+			);
+			path = SQLite;
+			sourceTree = "<group>";
+		};
+		6661E6F82917CBA00030E78B /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				6661E6F92917CBCF0030E78B /* Date.swift */,
+				66338AF829195E28008115B6 /* Int.swift */,
+				66338B02291A6E31008115B6 /* UIColor.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		66C5C524291ABD7A000E1941 /* InternetDisconnections */ = {
+			isa = PBXGroup;
+			children = (
+				66D1C6262913F39C002AEE91 /* Files */,
+				66338B00291A6BDE008115B6 /* Controllers */,
+				66338B01291A6BEC008115B6 /* Views */,
+				66338AFF291A6B6D008115B6 /* MonitorInternet */,
+				66338B04291A74FE008115B6 /* DataTableView */,
+				6661E6ED29141D410030E78B /* DataChart */,
+				6661E6F3291546800030E78B /* SQLite */,
+				6661E6F02914346D0030E78B /* Utils */,
+				6661E6F82917CBA00030E78B /* Extentions */,
+			);
+			path = InternetDisconnections;
+			sourceTree = "<group>";
+		};
+		66D1C6062913F133002AEE91 = {
+			isa = PBXGroup;
+			children = (
+				66D1C6202913F135002AEE91 /* Info.plist */,
+				66C5C524291ABD7A000E1941 /* InternetDisconnections */,
+				66D1C6102913F133002AEE91 /* Products */,
+				A5CB07FC7777D82E57EC13C5 /* Pods */,
+				3440B30282F9A2263D70B45D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		66D1C6102913F133002AEE91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66D1C60F2913F133002AEE91 /* InternetDisconnectionsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66D1C6262913F39C002AEE91 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				66D1C6122913F133002AEE91 /* AppDelegate.swift */,
+				66D1C6142913F133002AEE91 /* SceneDelegate.swift */,
+				66D1C61B2913F135002AEE91 /* Assets.xcassets */,
+				66D1C61D2913F135002AEE91 /* LaunchScreen.storyboard */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		66D1C6272913F3E2002AEE91 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				66D1C6282913F43C002AEE91 /* DisconnectionsCell.swift */,
+				66D1C6292913F43C002AEE91 /* DisconnectionsCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A5CB07FC7777D82E57EC13C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				641BBDA8E179B576AF4D9F57 /* Pods-InternetDisconnectionsApp.debug.xcconfig */,
+				4C2107E963C0FAAF88E073A2 /* Pods-InternetDisconnectionsApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66D1C60E2913F133002AEE91 /* InternetDisconnectionsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66D1C6232913F135002AEE91 /* Build configuration list for PBXNativeTarget "InternetDisconnectionsApp" */;
+			buildPhases = (
+				6CA3CE22E35E69F356D88918 /* [CP] Check Pods Manifest.lock */,
+				66D1C60B2913F133002AEE91 /* Sources */,
+				66D1C60C2913F133002AEE91 /* Frameworks */,
+				66D1C60D2913F133002AEE91 /* Resources */,
+				980E1B880CC8779674197C74 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InternetDisconnectionsApp;
+			productName = InternetDisconnectionsApp;
+			productReference = 66D1C60F2913F133002AEE91 /* InternetDisconnectionsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66D1C6072913F133002AEE91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					66D1C60E2913F133002AEE91 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 66D1C60A2913F133002AEE91 /* Build configuration list for PBXProject "InternetDisconnectionsApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66D1C6062913F133002AEE91;
+			productRefGroup = 66D1C6102913F133002AEE91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66D1C60E2913F133002AEE91 /* InternetDisconnectionsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66D1C60D2913F133002AEE91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66D1C61F2913F135002AEE91 /* LaunchScreen.storyboard in Resources */,
+				66D1C61C2913F135002AEE91 /* Assets.xcassets in Resources */,
+				66D1C62B2913F43C002AEE91 /* DisconnectionsCell.xib in Resources */,
+				66D1C61A2913F133002AEE91 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6CA3CE22E35E69F356D88918 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InternetDisconnectionsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		980E1B880CC8779674197C74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InternetDisconnectionsApp/Pods-InternetDisconnectionsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InternetDisconnectionsApp/Pods-InternetDisconnectionsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InternetDisconnectionsApp/Pods-InternetDisconnectionsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66D1C60B2913F133002AEE91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6661E6F2291434790030E78B /* CustomAxisValueFormatter.swift in Sources */,
+				66338AF729194670008115B6 /* NWPathMonitorHandler.swift in Sources */,
+				66338AFB291A62DC008115B6 /* InternetDisDataHandler.swift in Sources */,
+				66D1C6172913F133002AEE91 /* ViewController.swift in Sources */,
+				66338B03291A6E31008115B6 /* UIColor.swift in Sources */,
+				66338AF929195E28008115B6 /* Int.swift in Sources */,
+				66338AFE291A69B1008115B6 /* BarChartDataHandler.swift in Sources */,
+				66D1C6132913F133002AEE91 /* AppDelegate.swift in Sources */,
+				66D1C62A2913F43C002AEE91 /* DisconnectionsCell.swift in Sources */,
+				6661E6F5291546F90030E78B /* SQLiteDataBase.swift in Sources */,
+				6661E6EF29141D880030E78B /* BarChart.swift in Sources */,
+				6661E6FC2918245F0030E78B /* LocalState.swift in Sources */,
+				6661E6F72917B4170030E78B /* SQLiteHandler.swift in Sources */,
+				6661E6FA2917CBCF0030E78B /* Date.swift in Sources */,
+				66D1C6152913F133002AEE91 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66D1C6182913F133002AEE91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66D1C6192913F133002AEE91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66D1C61D2913F135002AEE91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66D1C61E2913F135002AEE91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66D1C6212913F135002AEE91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66D1C6222913F135002AEE91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66D1C6242913F135002AEE91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 641BBDA8E179B576AF4D9F57 /* Pods-InternetDisconnectionsApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5X8937C6QS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InternetDisconnectionsApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OfirG.InternetDisconnectionsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66D1C6252913F135002AEE91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C2107E963C0FAAF88E073A2 /* Pods-InternetDisconnectionsApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5X8937C6QS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InternetDisconnectionsApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OfirG.InternetDisconnectionsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66D1C60A2913F133002AEE91 /* Build configuration list for PBXProject "InternetDisconnectionsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D1C6212913F135002AEE91 /* Debug */,
+				66D1C6222913F135002AEE91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66D1C6232913F135002AEE91 /* Build configuration list for PBXNativeTarget "InternetDisconnectionsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66D1C6242913F135002AEE91 /* Debug */,
+				66D1C6252913F135002AEE91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66D1C6072913F133002AEE91 /* Project object */;
+}

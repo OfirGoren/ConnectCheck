@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="InternetDisconnectionsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="N7F-zK-2dk">
+                                <rect key="frame" x="0.0" y="47" width="390" height="20"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6R6-GW-5vd">
+                                        <rect key="frame" x="0.0" y="0.0" width="195" height="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Occurences" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VvJ-R2-d3x">
+                                        <rect key="frame" x="195" y="0.0" width="195" height="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="zqB-si-Ida"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jJO-Ui-YTp">
+                                <rect key="frame" x="0.0" y="67" width="390" height="713"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ddw-ud-DEz">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="356.66666666666669"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </tableView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YC4-QI-vdX" customClass="BarChart" customModule="InternetDisconnectionsApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="356.66666666666674" width="390" height="356.33333333333326"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="YC4-QI-vdX" firstAttribute="height" secondItem="ddw-ud-DEz" secondAttribute="height" multiplier="1:1" id="GUP-Mg-7Yo"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hbp-KC-Wwd">
+                                <rect key="frame" x="50" y="780" width="290" height="30"/>
+                                <color key="backgroundColor" red="0.066666666669999999" green="0.27058823529999998" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="oZ5-SX-LkC"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemBackgroundColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Reset Database"/>
+                                <connections>
+                                    <action selector="resetDataBaseClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uMk-ca-smd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hbp-KC-Wwd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="D43-9A-3Ey"/>
+                            <constraint firstItem="hbp-KC-Wwd" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="JX4-tB-mX8"/>
+                            <constraint firstItem="N7F-zK-2dk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="QET-ct-UGk"/>
+                            <constraint firstItem="N7F-zK-2dk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="SHq-hT-Yac"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="N7F-zK-2dk" secondAttribute="trailing" id="TUd-LR-YuM"/>
+                            <constraint firstItem="hbp-KC-Wwd" firstAttribute="top" secondItem="jJO-Ui-YTp" secondAttribute="bottom" id="e90-EI-yju"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jJO-Ui-YTp" secondAttribute="trailing" id="o54-mB-W4Z"/>
+                            <constraint firstItem="jJO-Ui-YTp" firstAttribute="top" secondItem="N7F-zK-2dk" secondAttribute="bottom" id="pV6-oH-5fM"/>
+                            <constraint firstItem="jJO-Ui-YTp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="r8V-dA-eMQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hbp-KC-Wwd" secondAttribute="trailing" constant="50" id="stY-Xe-K3v"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="barChart" destination="YC4-QI-vdX" id="i5o-cJ-20a"/>
+                        <outlet property="tableView" destination="ddw-ud-DEz" id="jps-rM-S5p"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.76923076923077" y="-28.436018957345969"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

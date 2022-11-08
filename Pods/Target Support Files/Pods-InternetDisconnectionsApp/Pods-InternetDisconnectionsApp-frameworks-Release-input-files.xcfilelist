@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-InternetDisconnectionsApp/Pods-InternetDisconnectionsApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
+${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework
+${BUILT_PRODUCTS_DIR}/SwiftAlgorithms/Algorithms.framework
