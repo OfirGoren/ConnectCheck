@@ -1,8 +1,8 @@
-# InternetDisconnectionsApp
+# ConnectCheck
 
 ## Description:
 
-InternetDisconnectionsApp provides information about the Amount of internet disconnection by hours.
+ConnectCheck provides information about the Amount of internet disconnection by hours.
 
 
 
